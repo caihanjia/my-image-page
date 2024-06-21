@@ -16,7 +16,8 @@
         }
         img {
             max-width: 100%;
-            height: auto;
+            max-height: 100vh; /* 让图片高度不超过视口高度 */
+            object-fit: contain; /* 保持图片比例 */
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
